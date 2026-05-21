@@ -30,4 +30,11 @@ html,body{
   font-weight: 600;
   font-style: normal;
 }
+.urbanist-bold{
+    font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Fonts */

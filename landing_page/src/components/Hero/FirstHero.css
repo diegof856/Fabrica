@@ -1,0 +1,17 @@
+.hero-character{
+width: 32%;
+transform: translate(-40px , -40px);
+
+}
+.hero-globe{
+    width: 80%;
+}
+.hero-star{
+    width: 15%;
+}
+.small-gear{
+    width: 80%;
+}
+.big-gear{
+    width: 75%;
+}

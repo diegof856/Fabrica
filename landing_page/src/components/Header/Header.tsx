@@ -2,7 +2,7 @@
 const Header = () => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
-      <div className="d-flex justify-content-center align-items-center py-1 px-3 my-2">
+      <div className="d-flex justify-content-center align-items-center px-3 py-2 my-2 w-100">
         <h6 className="poppins-bold text-white mb-0">NazaTech</h6>
       </div>
       <div className="d-flex justify-content-center align-items-center py-1 px-3 my-1">
