@@ -1,3 +1,4 @@
+//img
 import diego from "../../../assets/Team_photos/Diego.jpg"
 import klismans from "../../../assets/Team_photos/Klismans.jpg"
 import { RiUserLine } from "react-icons/ri";
@@ -33,14 +34,19 @@ export const TeamComponent = () => {
    <article>
 <ul className="list-unstyled">
     {info.map((obj,index)=> (
-        <li key={index} className="mb-3">
+        <li key={index} className="mb-3 d-flex gap-2 align-items-center">
            <div className="avatar-wrapper">
   <div className="avatar-inner">
     {renderImg(obj.photo, { size: 80, alt: "Foto do integrante da equipe" })}
   </div>
 </div>
-            <div>
-
+            <div className="text-white">
+          <h4 className="poppins-semibold  color-blue-text text-paragraph-size m-0">{obj.name}</h4>
+          <h2 className="poppins-bold mb-1 fs-6">{obj.title}</h2>
+          <p className="poppins-semibold text-paragraph-size  m-0">{obj.qualification_1}</p>
+            <p className="poppins-semibold text-paragraph-size  m-0">{obj.qualification_2}</p>
+              <p className="poppins-semibold text-paragraph-size  m-0">{obj.qualification_3}</p>
+                <p className="poppins-semibold text-paragraph-size m-0">{obj.qualification_4}</p>
             </div>
         </li>
     )) }

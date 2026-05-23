@@ -6,7 +6,7 @@ const SecondHero = () => {
     return (
         <section className="d-grid row-cols-1 w-100 overflow-hidden text-white py-4 px-4">
             <article>
-                <div> <h3 className="second-hero-text-blue poppins-semibold">Bem-vindo à Nazatech</h3>
+                <div> <h3 className="second-hero-text color-blue-text  poppins-semibold">Bem-vindo à Nazatech</h3>
                 </div>
                 <div className="texts-development-innovations-connections">
                     <h2 className="poppins-bold ">Desenvolvendo</h2>
