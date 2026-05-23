@@ -2,8 +2,8 @@ import quotesImg from "../../assets/quote-up.png";
 import globeImg from "../../assets/globe.svg";
 import character from "../../assets/character.svg";
 //components
-import Star from "./subcomponentshero/StartComponent";
-import Gear from "./subcomponentshero/GearComponent";
+import Star from "./subcomponents-hero/StartComponent";
+import Gear from "./subcomponents-hero/GearComponent";
 //css
 import "./FirstHero.css";
 const FirstHero = () => {
