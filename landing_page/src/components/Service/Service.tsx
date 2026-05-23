@@ -1,7 +1,7 @@
 //css
 import "./Service.css"
 //components
-import ServicoComponent from "./subcomponents-service/ServicoComponent"
+import ServicoComponent from "./subcomponents-service/ServiceComponent"
 const Service = () => {
   return (
    <section className="d-grid row-cols-1 w-100 overflow-hidden px-4">

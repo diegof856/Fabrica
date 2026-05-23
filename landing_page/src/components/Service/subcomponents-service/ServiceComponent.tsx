@@ -2,8 +2,11 @@ import iconWebDesign from "../../../assets/web-design.svg";
 import iconAppDesign from "../../../assets/app -design.svg";
 import iconGraphicDesign from "../../../assets/graphic-design.svg";
 import { RiPagesLine } from "react-icons/ri";
-
+//context
+import { useContext } from "react";
+import { CheckImageContext } from "../../../context/CheckImageContext"
 const ServicoComponent = () => {
+  const { renderImg } = useContext(CheckImageContext);
   const info = [
     { icon: iconWebDesign, title: "Web Design", description: "Desenvolvemos sites e plataformas web responsivas, modernas e de alta performance, projetadas para destacar sua marca no ambiente digital." },
     { icon: iconAppDesign, title: "App Design", description: "Projetamos soluções e aplicativos mobile funcionais, unindo design estrutural e navegabilidade de ponta para entregar a melhor experiência na palma da mão." },
@@ -16,12 +19,8 @@ const ServicoComponent = () => {
         {info.map((obj, index) => (
           <li key={index} className="col mt-3">
             <div className="bg-white p-3 h-100 d-flex flex-column gap-2 rounded">
-
               <div className="icon-container">
-                {typeof obj.icon === 'string' ? (
-                  <img src={obj.icon} alt={obj.title} className="icons-services" />) : (
-                  <obj.icon size={40}  color={obj.color}/>
-                )}
+             {renderImg(obj.icon, { className:"icons-services" ,alt:"icones que representam os serviços da empresa" ,color: obj.color })}
               </div>
               <h3 className="poppins-semibold m-0 small">{obj.title}</h3>
               <p className="poppins-regular text-paragraph-size ">{obj.description}</p>
