@@ -1,0 +1,10 @@
+.second-hero-text-blue{
+    color: rgba(59, 116, 191, 1);
+    margin: 0;
+}
+.texts-development-innovations-connections h2{
+margin: 0;
+}
+.texts-development-innovations-connections h2:last-child{
+margin-bottom: 12px;
+}

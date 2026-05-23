@@ -36,5 +36,12 @@ html,body{
   font-weight: 700;
   font-style: normal;
 }
-
+.text-formatting{
+  letter-spacing: 0.0em;
+  line-height: 100%;
+  text-align: justify;
+}
+.text-paragraph-size{
+  font-size: 12px;
+}
 /* Fonts */
