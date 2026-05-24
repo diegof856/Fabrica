@@ -8,8 +8,8 @@ import { useContext,useEffect, useState, useRef } from "react";
 import { CheckImageContext } from "../../../context/CheckImageContext"
 
 //interfaces
-//interfaces
 import type { TeamMember } from "../../../interfaces/TeamMember";
+//components
 import QualificationsTeamComponent from "./QualificationsTeamComponent";
 export const TeamComponent = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);

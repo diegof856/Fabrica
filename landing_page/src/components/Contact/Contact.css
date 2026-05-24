@@ -1,0 +1,18 @@
+.btn{
+    background-color:  rgba(13, 79, 186, 1);
+    width: 50%;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+.input-send-message{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+outline: none;
+width: 100%;
+}
+.input-send-message::placeholder {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.7;
+}

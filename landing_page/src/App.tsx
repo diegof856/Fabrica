@@ -1,12 +1,14 @@
 //components
 //Header
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import FirstHero from "./components/Hero/FirstHero";
 import SecondHero from "./components/Hero/SecondHero";
 import Service from "./components/Service/Service"
 import Team from "./components/Team/Team";
-//css
-import "./App.css"
+import BicoDigital from "./components/Works/BicoDigital";
+
 import { CheckImageProvider } from "./context/CheckImageContext";
 function App() {
 
@@ -19,6 +21,9 @@ function App() {
     <SecondHero/>
     <Service/>
     <Team/>
+    <BicoDigital/>
+    <Contact/>
+    <Footer/>
     </CheckImageProvider>
     </>
   )
