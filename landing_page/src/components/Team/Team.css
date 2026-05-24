@@ -4,8 +4,8 @@
 background: linear-gradient(
     to bottom,
     rgb(24, 24, 24) 10%,
-    rgb(83, 82, 82) 40%,
-    rgba(255, 130, 51, 1) 80%
+    rgb(119, 118, 118) 40%,
+    rgb(235, 145, 89) 50%
   );
   display: inline-flex;
    width: 80px;
@@ -29,3 +29,46 @@ background: #121212;
   height: 80px;
   object-fit: cover;
 }
+.qualification-section-width{
+  width: 60%;
+}
+@keyframes fillBar {
+  from { width: 0; }
+  to { width: var(--target, 100%); }
+}
+.line-track {
+  width: 100%;
+  height: 5px;
+  border-radius: 999px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 4px;
+}
+.line {
+  height: 5px;
+  border-radius: 999px;
+  background-color: rgba(13, 79, 166, 1);
+  position: absolute;
+  width: 0;
+  animation: fillBar 2s ease-out forwards;
+  animation-fill-mode: both; 
+}
+
+.line-sm   { --target: 88%; }
+.line-md   { --target: 90%; }
+.line-lg   { --target: 92%; }
+.line-full { --target: 94%; }
+
+.line::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid rgba(13, 79, 166, 1);
+  position: absolute;
+  right: -6px; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
