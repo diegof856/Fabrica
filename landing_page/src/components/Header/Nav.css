@@ -1,0 +1,24 @@
+.nav-wrapper{
+ border: 1px solid transparent;
+  border-radius: 25px;
+  background: linear-gradient(#171717, #171717) padding-box,
+  linear-gradient(-90deg, rgba(255, 255,255, 1), rgba(203,203,203,0)) border-box;
+}
+.btn-custom{
+    border: 1px solid transparent;
+  border-radius: 25px;
+  padding: 15px 20px;
+transition: all 0.2s ease-in-out;
+}
+.btn-custom:hover{
+background: rgba(13, 79, 186, 1);
+cursor: pointer;
+}
+.btn-custom-gradient:active,
+.btn-custom-gradient.active{
+    border: 1px solid transparent;
+    width: 100%;
+    border-radius: 25px;
+    background: rgba(59, 116, 191, 1);
+    transform: scale(0.98);
+}

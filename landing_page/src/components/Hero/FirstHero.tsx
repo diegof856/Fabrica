@@ -8,7 +8,12 @@ import Gear from "./subcomponents-hero/GearComponent";
 import "./FirstHero.css";
 const FirstHero = () => {
   return (
-    <section className="d-grid row-cols-1 w-100 overflow-hidden">
+    <section className="d-grid grid-cols-1 grid-cols-lg-2 w-100 overflow-hidden max-width mx-auto gap-4 align-items-center">
+       <div className="d-none d-lg-flex y-content-center align-items-center py-1 px-3 mb-2">
+        <h5 className="urbanist-semibold text-white text-center mb-0">
+          "Nós somos a <span className="color-blue-text">Nazatech</span>, inovação e desenvolvimento para todos."
+        </h5>
+      </div>
       <div className="d-flex flex-column align-items-start py-1 px-3 gap-1 w-75">
         <img src={quotesImg} alt="Imagem de Aspas" className="img-fluid quotes-hero" />
         <p className="poppins-medium text-white mb-0 affirmative-text">O design de produto excepcional, a gente garante o sucesso do seu site.</p>

@@ -1,27 +1,27 @@
 .avatar-wrapper {
   padding: 3px;
   border-radius: 50%;
-background: linear-gradient(
-    to bottom,
-    rgb(24, 24, 24) 10%,
-    rgb(119, 118, 118) 40%,
-    rgb(235, 145, 89) 50%
-  );
+  background: linear-gradient(to bottom,
+      rgb(24, 24, 24) 10%,
+      rgb(119, 118, 118) 40%,
+      rgb(235, 145, 89) 50%);
   display: inline-flex;
-   width: 80px;
+  width: 80px;
   height: 80px;
- 
+
 }
+
 .avatar-inner {
-background: #121212;
+  background: #121212;
   border-radius: 50%;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
 }
+
 .avatar-inner img {
   border-radius: 50%;
   display: block;
@@ -29,13 +29,21 @@ background: #121212;
   height: 80px;
   object-fit: cover;
 }
-.qualification-section-width{
+
+.qualification-section-width {
   width: 60%;
 }
+
 @keyframes fillBar {
-  from { width: 0; }
-  to { width: var(--target, 100%); }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: var(--target, 100%);
+  }
 }
+
 .line-track {
   width: 100%;
   height: 5px;
@@ -44,6 +52,7 @@ background: #121212;
   position: relative;
   margin-bottom: 4px;
 }
+
 .line {
   height: 5px;
   border-radius: 999px;
@@ -51,13 +60,24 @@ background: #121212;
   position: absolute;
   width: 0;
   animation: fillBar 2s ease-out forwards;
-  animation-fill-mode: both; 
+  animation-fill-mode: both;
 }
 
-.line-sm   { --target: 88%; }
-.line-md   { --target: 90%; }
-.line-lg   { --target: 92%; }
-.line-full { --target: 94%; }
+.line-sm {
+  --target: 88%;
+}
+
+.line-md {
+  --target: 90%;
+}
+
+.line-lg {
+  --target: 92%;
+}
+
+.line-full {
+  --target: 94%;
+}
 
 .line::before {
   content: "";
@@ -67,8 +87,7 @@ background: #121212;
   background-color: white;
   border: 3px solid rgba(13, 79, 166, 1);
   position: absolute;
-  right: -6px; 
+  right: -6px;
   top: 50%;
   transform: translateY(-50%);
 }
-
