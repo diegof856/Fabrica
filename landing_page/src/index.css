@@ -1,16 +1,11 @@
-#root, body {
-  width: 100%;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
-html,body{
+
+body{
     font-family: "Poppins", sans-serif;
     background-color: rgba(30, 30, 30, 1);
+     max-width: 992px;
+     margin: 0 auto;
 }
-.max-width{
- max-width: 992px;
-}
+
 .color-blue-text{
 color: rgba(59, 116, 191, 1);
 }

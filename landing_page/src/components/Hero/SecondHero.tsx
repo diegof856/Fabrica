@@ -4,7 +4,7 @@ import globeConnection from "../../assets/Connected-world.svg";
 import "./SecondHero.css";
 const SecondHero = () => {
     return (
-        <section className="d-grid row-cols-1 w-100 overflow-hidden text-white py-4 px-4 max-width mx-auto">
+        <section className="d-grid row-cols-1 w-100 overflow-hidden text-white py-4 px-4">
             <article>
                 <div> <h3 className="second-hero-text color-blue-text  poppins-semibold">Bem-vindo à Nazatech</h3>
                 </div>
