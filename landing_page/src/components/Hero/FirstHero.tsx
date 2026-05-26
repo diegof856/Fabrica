@@ -1,14 +1,17 @@
-import SectionComponentSmallPrimaryHero from "./subcomponents-hero/SectionComponentSmallPrimaryHero";
-import SectionComponentLargePrimaryHero from "./subcomponents-hero/SectionComponentLargePrimaryHero";
+import SectionComponentSmallPrimaryHero from "./subcomponents-hero/PrimaryHero/SectionComponentSmallPrimaryHero";
+import SectionComponentLargePrimaryHero from "./subcomponents-hero/PrimaryHero/SectionComponentLargePrimaryHero";
 //css
 import "./FirstHero.css";
 const FirstHero = () => {
   return (
     <section className="d-grid grid-cols-1 grid-cols-lg-2 w-100 overflow-hidden gap-4 align-items-center">
-    <div className="d-block d-md-none">
+    <div className="d-md-none">
         <SectionComponentSmallPrimaryHero />
       </div>
-      <SectionComponentLargePrimaryHero/>
+      <div className="d-none d-md-block">
+ <SectionComponentLargePrimaryHero/>
+      </div>
+     
     </section>
   )
 }

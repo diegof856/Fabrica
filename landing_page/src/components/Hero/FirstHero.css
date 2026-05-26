@@ -1,39 +1,85 @@
-.hero-character{
-width: 32%;
-transform: translate(-40px , -40px);
+.hero-character {
+    width: 32%;
+    transform: translate(-40px, -40px);
 
 }
-.affirmative-text{
+
+.affirmative-text {
     font-size: 12px;
 }
-.quotes-hero{
+
+.quotes-hero {
     width: 6%;
 }
-.hero-globe{
+
+.hero-globe {
     width: 80%;
 }
-.hero-star{
+
+.hero-star {
     width: 10%;
 }
-.small-gear{
-   width: 65%;
+
+.small-gear {
+    width: 50%;
 }
-.gears{
+
+.gears {
     transform: translate(30px, -30px);
 }
-.big-gear{
-   width: 80%;
+
+.big-gear {
+    width: 70%;
 }
-.paragraph-text-quality{
+
+.paragraph-text-quality {
     margin-bottom: 0;
     font-size: 22px;
-    line-height:20px;
+    line-height: 20px;
 }
-.paragraph-text-experience{
+
+.paragraph-text-experience {
     font-size: 10px;
     margin-right: 32px;
 }
-.star_texts{
 
-    transform: translate(-15px,25px);
+.star_texts {
+
+    transform: translate(-24px, 15px);
+}
+
+@media (min-width: 768px) {
+    .gears {
+        transform: translate(18px, -36px);
+    }
+
+    .hero-character {
+        width: 32%;
+        transform: translate(-24px, 32px);
+
+    }
+
+    .big-gear {
+        width: 58%;
+    }
+
+    .small-gear {
+        width: 40%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .gears {
+        transform: translate(40px, -40px);
+    }
+
+    .big-gear {
+        width: 65%;
+    }
+
+    .small-gear {
+        width: 40%;
+    }
+
 }

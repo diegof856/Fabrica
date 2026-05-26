@@ -15,7 +15,7 @@ const ServicoComponent = () => {
   ]
   return (
     <article>
-      <ul className="row row-cols-2 list-unstyled  g-3 w-100 m-0 p-0">
+      <ul className="row row-cols-2 row-cols-md-4 list-unstyled g-3 w-100 m-0 p-0">
         {info.map((obj, index) => (
           <li key={index} className="col mt-3">
             <div className="bg-white p-3 h-100 d-flex flex-column gap-2 rounded">

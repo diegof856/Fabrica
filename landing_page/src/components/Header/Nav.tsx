@@ -9,9 +9,9 @@ const navLinks =[
 ]
 const Nav = () => {
   return (
-   <nav className="d-flex gap-2 p-2 nav-wrapper">
+   <nav className="d-flex gap-2 py-2 px-4 nav-wrapper">
 {navLinks.map((obj)=>(
-    <a className="text-decoration-none text-white btn-custom small"key={obj.href} href={obj.href}>{obj.label}</a>
+    <a className="text-decoration-none text-white btn-custom fs-6"key={obj.href} href={obj.href}>{obj.label}</a>
 ))}
    </nav>
   )
