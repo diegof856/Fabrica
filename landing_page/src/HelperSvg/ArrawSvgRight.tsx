@@ -1,0 +1,12 @@
+
+
+const ArrawSvgRight = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.00049 20.0005C2.00049 17.0005 5.00049 11.0005 2.00049 2.00049M9.50049 23.5005C13.8338 19.3338 22.7005 9.20049 23.5005 2.00049M12.5005 30.5005C15.1672 30.5005 22.3005 29.1005 29.5005 23.5005" stroke="#044D8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+  )
+}
+
+export default ArrawSvgRight

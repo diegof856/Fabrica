@@ -1,4 +1,3 @@
-import quotesImg from "../../../../assets/quote-up.png";
 import globeImg from "../../../../assets/globe.svg";
 import character from "../../../../assets/character.svg";
 //components
@@ -8,7 +7,6 @@ const SectionComponentSmallHero = () => {
   return (
     <div>
       <div className="d-flex flex-column align-items-start py-1 px-3 gap-1 w-75">
-        <img src={quotesImg} alt="Imagem de Aspas" className="img-fluid quotes-hero" />
         <p className="poppins-medium text-white mb-0 affirmative-text">O design de produto excepcional, a gente garante o sucesso do seu site.</p>
       </div>
       <div className="d-flex px-4 justify-content-center">
