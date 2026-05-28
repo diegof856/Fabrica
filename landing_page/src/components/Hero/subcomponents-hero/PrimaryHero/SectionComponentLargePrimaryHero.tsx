@@ -27,16 +27,19 @@ const SectionComponentLargePrimaryHero = () => {
 
 
       {/* Coluna Esquerda */}
-      <div className="position-relative col-6 d-flex flex-column justify-content-center y-content-center align-items-center py-1 gap-3 px-3 mb-5" style={{zIndex: 1}}>
-       <div className="position-absolute position-arrow-left translate-middle-y ps-3">
+      <div className="col-6 d-flex flex-column justify-content-center y-content-center align-items-center py-1 gap-3 px-3 mb-5" style={{zIndex: 1}}>
+        <div className="position-relative d-flex w-100">
+        <div className="style-arrow-left">
     <ArrowSvgLeft/>
   </div>
         <h5 className="urbanist-semibold text-white text-center mb-0 fs-2">
           "Nós somos a <span className="color-blue-text urbanist-semibold">Nazatech</span>, inovação e desenvolvimento para todos."
         </h5>
-       <div className="position-absolute position-arrow-right translate-middle-y pe-3">
+       <div className="style-arrow-right">
     <ArrawSvgRight/>
   </div>
+        </div>
+   
 
       </div>
       {/* Coluna Direita  */}
