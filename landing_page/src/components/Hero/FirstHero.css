@@ -28,20 +28,6 @@
     width: 70%;
 }
 
-.style-arrow-right {
-    position: absolute;
-    top: -10px;
-    right: 45px;
-    transform: none !important;
-}
-
-.style-arrow-left {
-    position: absolute;
-    bottom: -20px;
-    left: 64px;
-    transform: none !important;
-}
-
 .paragraph-text-quality {
     margin-bottom: 0;
     font-size: 22px;
@@ -52,70 +38,49 @@
     font-size: 10px;
     margin-right: 32px;
 }
+.svg-starthree{
 
-.bg-svg-element {
-    position: absolute;
-    z-index: 0;
-    pointer-events: none;
-}
-
-.svg-star-large {
-    top: 5%;
-    left: 2%;
-}
-
-.svg-star-small {
-    bottom: 0%;
-    right: 0%;
-}
-
-.svg-star-three {}
-
-.svg-star-two {}
-
-.svg-gear-large {
-    bottom: 2%;
-    left: 0%;
-}
-
-.svg-gear-small {
-    top: 5%;
-    right: 0%;
-}
-
-.svg-gear-blue {
-    top: 2%;
-    left: 45%;
 }
 
 @media (min-width: 768px) {
     .gears {
-        transform: translate(18px, -36px);
+        transform: translate(-12px, -36px);
     }
+    .small-gear {
+    width: 45%;
+}
+.big-gear {
+    width: 65%;
+}
 
     .hero-character {
         width: 32%;
         transform: translate(-24px, 32px);
 
     }
-
-    .big-gear {
-        width: 58%;
+    .svg-gear-sm{
+        bottom: 2%;
     }
-
-    .small-gear {
-        width: 40%;
+    .svg-gear-blue {
+        top: 7%;
+        left: 50%;
     }
-
-    .position-arrow-left {
-        left: 12%;
-        top: 57%;
+    .svg-gear-lg {
+        bottom: 15%;
+        left: 8%;
     }
-
-    .position-arrow-right {
-        right: 9%;
-        top: 43%;
-    }
+ .svg-star-two {
+     top: 20%;
+   left: 18%;
+ }
+ .svg-startwo-variant-two {
+    top: 2%;
+   right: 2%;
+ }
+    .svg-starthree{
+   bottom: 28%;
+   left: 14%;
+}
 }
 
 
@@ -129,40 +94,4 @@
         transform: translate(-48px, 48px);
 
     }
-
-    .big-gear {
-        width: 85%;
-    }
-
-    .small-gear {
-        width: 60%;
-    }
-
-    .svg-star-three {
-
-        top: 360px;
-        right: 450px;
-        transform: none !important;
-    }
-
-    .svg-star-two {
-
-        top: 30%;
-        right: -35%;
-        transform: none !important;
-    }
-    .svg-gear-large {
-    bottom: 22%;
-    left: 4%;
-}
-
-.svg-gear-small {
-    top: 80%;
-    right: -18%;
-}
-
-.svg-gear-blue {
-    top: 70%;
-    left: 11%;
-}
 }

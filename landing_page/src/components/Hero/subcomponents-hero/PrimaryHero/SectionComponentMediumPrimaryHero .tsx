@@ -3,9 +3,13 @@ import character from "../../../../assets/character--lg.svg";
 
 //components
 import Gear from "../GearComponent";
-import Sentence from "../../../../HelperSvg/SentenceSvg";
-
-
+import SentenceMd from "../../../../HelperSvg/SentenceMdSvg";
+import StarThree from "../../../../HelperSvg/StarThreeBlueSvg";
+import GearBlueSvg from "../../../../HelperSvg/GearBlueSvg";
+import GearLgSvg from "../../../../HelperSvg/GearLgSvg";
+import GearSmallSvg from "../../../../HelperSvg/GearSmallSvg";
+import StarTwoBlueVariantTwoSvg from "../../../../HelperSvg/StarTwoBlueVariantTwoSvg";
+import StarTwoBlue from "../../../../HelperSvg/StarTwoBlueSvg"
 const SectionComponentLargePrimaryHero = () => {
   return (
     <div className="row g-3 position-relative overflow-hidden">
@@ -13,7 +17,13 @@ const SectionComponentLargePrimaryHero = () => {
 
       {/* Coluna Esquerda */}
       <div className="col-6 d-flex flex-column justify-content-center y-content-center align-items-center py-1 gap-3 px-3 mb-5" style={{zIndex: 1}}>
-      <Sentence/>
+        <StarThree/>
+        <GearLgSvg/>
+        <GearBlueSvg/>
+        <GearSmallSvg/>
+        <StarTwoBlue/>
+        <StarTwoBlueVariantTwoSvg/>
+      <SentenceMd/>
    
 
       </div>

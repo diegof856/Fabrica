@@ -1,5 +1,6 @@
 import SectionComponentSmallPrimaryHero from "./subcomponents-hero/PrimaryHero/SectionComponentSmallPrimaryHero";
 import SectionComponentLargePrimaryHero from "./subcomponents-hero/PrimaryHero/SectionComponentLargePrimaryHero";
+import SectionComponentMediumPrimaryHero from "./subcomponents-hero/PrimaryHero/SectionComponentMediumPrimaryHero "
 //css
 import "./FirstHero.css";
 const FirstHero = () => {
@@ -8,8 +9,11 @@ const FirstHero = () => {
     <div className="d-md-none">
         <SectionComponentSmallPrimaryHero />
       </div>
-      <div className="d-none d-md-block">
- <SectionComponentLargePrimaryHero/>
+      <div className="d-none d-md-block d-lg-none">
+        <SectionComponentMediumPrimaryHero />
+      </div>
+    <div className="d-none d-lg-block">
+        <SectionComponentLargePrimaryHero />
       </div>
      
     </section>
