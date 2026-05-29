@@ -46,7 +46,7 @@ export const TeamComponent = () => {
       levels: ["line-md", "line-sm", "line-full", "line-lg"]
     },
   ]
- 
+
   return (
     <article className="container py-4">
       <ul className="list-unstyled row g-4">

@@ -6,12 +6,12 @@ import "./Team.css"
 const Team = () => {
   return (
     <section className="d-grid row-cols-1 w-100 overflow-hidden px-4 mt-4">
-     <div className="d-md-none">
-                <TeamSmall/>
-            </div>
-              <div className="d-none d-md-block">
-                <TeamLarge />
-            </div>
+      <div className="d-md-none">
+        <TeamSmall />
+      </div>
+      <div className="d-none d-md-block">
+        <TeamLarge />
+      </div>
     </section>
   )
 }

@@ -4,7 +4,7 @@ import TrocaLampada from "../../../assets/Works/Bico_digital/Troca-Lampada.png";
 const BicoDigitalLarge = () => {
   return (
     <div>
- <article className="text-white ">
+      <article className="text-white ">
         <h2 className="poppins-semibold m-0 text-center">BicoDigital</h2>
         <p className="poppins-regular text-formatting mt-2 fs-5 text-center">Desenvolvemos uma plataforma para você conseguir aquela grana extra.</p>
       </article>
@@ -43,7 +43,7 @@ const BicoDigitalLarge = () => {
         </div>
       </article>
     </div>
-    )
+  )
 }
 
 export default BicoDigitalLarge

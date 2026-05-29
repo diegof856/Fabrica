@@ -6,16 +6,16 @@ import "./FirstHero.css";
 const FirstHero = () => {
   return (
     <section className="d-grid grid-cols-1 grid-cols-lg-2 w-100 overflow-hidden gap-4 align-items-center">
-    <div className="d-md-none">
+      <div className="d-md-none">
         <SectionComponentSmallPrimaryHero />
       </div>
       <div className="d-none d-md-block d-lg-none">
         <SectionComponentMediumPrimaryHero />
       </div>
-    <div className="d-none d-lg-block">
+      <div className="d-none d-lg-block">
         <SectionComponentLargePrimaryHero />
       </div>
-     
+
     </section>
   )
 }

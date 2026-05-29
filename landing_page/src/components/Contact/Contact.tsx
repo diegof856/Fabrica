@@ -1,5 +1,6 @@
 import "./Contact.css"
 import ContactLarge from "./subcomponents-contact/ContactLarge"
+import ContactMedium from "./subcomponents-contact/ContactMedium"
 import ContactSmall from "./subcomponents-contact/ContactSmall"
 const Contact = () => {
   return (
@@ -7,7 +8,10 @@ const Contact = () => {
       <div className="d-md-none">
         <ContactSmall />
       </div>
-       <div className="d-none d-md-block">
+       <div className="d-none d-md-block d-lg-none">
+        <ContactMedium />
+      </div>
+      <div className="d-none d-lg-block">
         <ContactLarge />
       </div>
     </section>

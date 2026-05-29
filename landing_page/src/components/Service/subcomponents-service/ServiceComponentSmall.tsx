@@ -4,12 +4,12 @@ import ServicoComponent from "./ServiceComponent"
 const ServiceComponentSamll = () => {
   return (
     <div>
-        <article className="text-white d-flex flex-column justify-content-center">
+      <article className="text-white d-flex flex-column justify-content-center">
         <h2 className="poppins-semibold m-0 text-center">Nossos Serviços</h2>
         <p className="small poppins-regular text-formatting ">Desenvolvemos soluções digitais completas para impulsionar o seu negócio com tecnologia de ponta e design inovador.</p>
-    </article>
+      </article>
 
-    <ServicoComponent/>
+      <ServicoComponent />
     </div>
   )
 }
