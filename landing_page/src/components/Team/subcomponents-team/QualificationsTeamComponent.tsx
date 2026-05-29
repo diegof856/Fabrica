@@ -11,7 +11,7 @@ const QualificationsTeamComponent = ({ obj, index, isIntersecting }: Qualificati
       <h2 className="poppins-bold mb-1 fs-6">{obj.title}</h2>
       {[0, 1, 2, 3].map((i) => (
         <div key={i} className="d-flex flex-column">
-          <p className="poppins-semibold text-paragraph-size m-0">
+          <p className="poppins-semibold text-paragraph-size m-0 text-white">
             {obj[`qualification_${i + 1}` as keyof TeamMember] as string}
           </p>
           <div className="line-track">

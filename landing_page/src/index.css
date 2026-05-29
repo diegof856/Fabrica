@@ -1,9 +1,20 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: "Poppins", sans-serif;
     background-color: rgba(30, 30, 30, 1);
-     max-width: 1440px;
-     margin: 0 auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+:root {
+  --text-paragraph-size: clamp(12px, 2vw, 16px);
+  --text-affirmative: clamp(12px, 2.5vw, 14px);
 }
 
 .color-blue-text{
@@ -49,7 +60,8 @@ color: rgba(59, 116, 191, 1);
   text-align: justify;
 }
 .text-paragraph-size{
-  font-size: 12px;
+  font-size: var(--text-paragraph-size);
+  color: #000;
 }
 /* Fonts */
 @keyframes fadeInUp {
@@ -70,5 +82,17 @@ color: rgba(59, 116, 191, 1);
   animation: fadeInUp 1.8s ease-out forwards;
 }
 .padding_lg{
-  padding: 0 4em;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .padding_lg {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .padding_lg {
+    padding: 4rem;
+  }
 }

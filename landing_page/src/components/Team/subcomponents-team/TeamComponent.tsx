@@ -49,7 +49,7 @@ export const TeamComponent = () => {
  
   return (
     <article>
-      <ul className="list-unstyled row-cols-1 row-cols-md-2">
+      <ul className="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-md-3">
         {info.map((obj, index) => (
           <li key={index} className={`mb-3 d-flex gap-2 align-items-center `} style={{ animationDelay: `${index * 0.15}s` }}>
             <div className="avatar-wrapper">

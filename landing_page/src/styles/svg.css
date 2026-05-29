@@ -1,0 +1,74 @@
+/* SVG Responsive Styling */
+
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Decorative SVGs */
+.svg-decorative {
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Background SVG Elements */
+.bg-svg-element {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.svg-star-large {
+  top: 5%;
+  left: 2%;
+  width: clamp(40px, 8vw, 100px);
+}
+
+.svg-star-small {
+  bottom: 0%;
+  right: 0%;
+  width: clamp(30px, 6vw, 80px);
+}
+
+.svg-gear-large {
+  bottom: 2%;
+  left: 0%;
+  width: clamp(60px, 15vw, 200px);
+}
+
+.svg-gear-small {
+  top: 5%;
+  right: 0%;
+  width: clamp(40px, 8vw, 120px);
+}
+
+.svg-gear-blue {
+  top: 2%;
+  left: 45%;
+  width: clamp(50px, 10vw, 150px);
+}
+
+/* Hero SVG Icons */
+.hero-gear {
+  width: clamp(40px, 8vw, 120px);
+  height: auto;
+}
+
+.hero-star {
+  width: clamp(30px, 6vw, 80px);
+  height: auto;
+}
+
+/* Responsive SVG in Grid */
+@media (max-width: 767px) {
+  .bg-svg-element {
+    opacity: 0.5; /* Reduz visual weight em mobile */
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-svg-element {
+    opacity: 1;
+  }
+}

@@ -10,6 +10,11 @@ import Team from "./components/Team/Team";
 import BicoDigital from "./components/Works/BicoDigital";
 
 import { CheckImageProvider } from "./context/CheckImageContext";
+
+// Global Styles (Consolidated)
+import "./styles/variables.css";
+import "./styles/global.css";
+import "./styles/svg.css";
 function App() {
 
 

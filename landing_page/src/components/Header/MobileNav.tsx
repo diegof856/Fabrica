@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Nav.css"
+import "./MobileNav.css"
 
 const navLinks = [
   { href: "#Inicio", label: "Home" },
@@ -10,19 +10,31 @@ const navLinks = [
   { href: "#Contact", label: "Contact" },
 ]
 
-const Nav = () => {
+const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleNavClick = () => {
     setIsOpen(false);
   }
 
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  }
+
   return (
-    <>
-      <nav className="d-flex gap-2 py-2 px-4 nav-wrapper">
+    <div className="mobile-nav-container">
+      <button
+        className="hamburger-btn"
+        onClick={toggleMenu}
+        aria-label="Toggle navigation menu"
+      >
+        <span className={isOpen ? "hamburger-icon open" : "hamburger-icon"}></span>
+      </button>
+
+      <nav className={`mobile-nav-menu ${isOpen ? "open" : ""}`}>
         {navLinks.map((obj) => (
           <a
-            className="text-decoration-none text-white btn-custom fs-6"
+            className="mobile-nav-link"
             key={obj.href}
             href={obj.href}
             onClick={handleNavClick}
@@ -31,8 +43,8 @@ const Nav = () => {
           </a>
         ))}
       </nav>
-    </>
+    </div>
   )
 }
 
-export default Nav
+export default MobileNav

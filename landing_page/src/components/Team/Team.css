@@ -6,8 +6,8 @@
       rgb(119, 118, 118) 40%,
       rgb(59 , 116, 191) 50%);
   display: inline-flex;
-  width: 80px;
-  height: 80px;
+  width: clamp(60px, 15vw, 100px);
+  height: clamp(60px, 15vw, 100px);
 
 }
 
@@ -25,13 +25,13 @@
 .avatar-inner img {
   border-radius: 50%;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .qualification-section-width {
-  width: 60%;
+  width: clamp(50%, 60%, 80%);
 }
 
 @keyframes fillBar {

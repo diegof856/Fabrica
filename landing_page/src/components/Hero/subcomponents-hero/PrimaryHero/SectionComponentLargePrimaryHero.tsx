@@ -32,7 +32,7 @@ const SectionComponentLargePrimaryHero = () => {
     <ArrowSvgLeft/>
   </div>
         <h5 className="urbanist-semibold text-white text-center mb-0 fs-2">
-          "Nós somos a <span className="color-blue-text urbanist-semibold">Nazatech</span>, inovação e desenvolvimento para todos."
+          "Nós somos a <span className="color-blue-text fs-2">Nazatech</span>, inovação e desenvolvimento para todos."
         </h5>
        <div className="position-absolute position-arrow-right translate-middle-y pe-3">
     <ArrawSvgRight/>

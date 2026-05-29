@@ -15,15 +15,15 @@ const ServicoComponent = () => {
   ]
   return (
     <article>
-      <ul className="row row-cols-2 row-cols-md-4 list-unstyled g-3 w-100 m-0 p-0">
+      <ul className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 list-unstyled g-3 w-100 m-0 p-0">
         {info.map((obj, index) => (
           <li key={index} className="col mt-3">
             <div className="bg-white p-3 h-100 d-flex flex-column gap-2 rounded">
               <div className="icon-container">
                 {renderImg(obj.icon, { className: "icons-services", alt: "icones que representam os serviços da empresa", color: obj.color })}
               </div>
-              <h3 className="poppins-semibold m-0 small">{obj.title}</h3>
-              <p className="poppins-regular text-paragraph-size ">{obj.description}</p>
+              <h3 className="poppins-semibold m-0 small text-dark">{obj.title}</h3>
+              <p className="poppins-regular text-paragraph-size text-dark ">{obj.description}</p>
             </div>
 
           </li>

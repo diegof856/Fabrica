@@ -5,7 +5,7 @@ import TeamLarge from "../Team/subcomponents-team/TeamLargeComponent"
 import "./Team.css"
 const Team = () => {
   return (
-    <section className="d-grid row-cols-1 w-100 overflow-hidden px-4 mt-4">
+    <section id="Equipe" className="d-grid row-cols-1 w-100 overflow-hidden px-4 mt-4">
      <div className="d-md-none">
                 <TeamSmall/>
             </div>

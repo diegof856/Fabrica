@@ -1,0 +1,150 @@
+/* Ensure full width layout */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Full width sections that extend to viewport edges */
+section {
+  width: 100%;
+  margin: 0;
+  padding-left: clamp(1rem, 5vw, 2rem);
+  padding-right: clamp(1rem, 5vw, 2rem);
+}
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding-left: clamp(1rem, 5vw, 2rem);
+  padding-right: clamp(1rem, 5vw, 2rem);
+}
+
+/* Internal content container - max width */
+section > .row,
+section > article,
+section > ul,
+footer > * {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header special case */
+.sticky-top {
+  width: 100%;
+  padding-left: clamp(1rem, 4vw, 2rem) !important;
+  padding-right: clamp(1rem, 4vw, 2rem) !important;
+}
+
+.fs-4 {
+  font-size: clamp(20px, 5vw, 24px);
+}
+
+/* Mobile-first padding strategy */
+section {
+  padding-left: clamp(1rem, 3vw, 2rem);
+  padding-right: clamp(1rem, 3vw, 2rem);
+}
+
+/* Ensure responsive images */
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve button responsiveness */
+button, .btn, input[type="button"] {
+  font-size: clamp(12px, 2vw, 16px);
+}
+
+/* Improve input field responsiveness */
+input[type="text"],
+input[type="email"],
+textarea,
+.input-send-message {
+  font-size: clamp(12px, 2vw, 14px);
+}
+
+/* Heading responsive scaling */
+h1 { font-size: clamp(28px, 6vw, 48px); }
+h2 { font-size: clamp(24px, 5vw, 36px); }
+h3 { font-size: clamp(18px, 4vw, 28px); }
+h4 { font-size: clamp(16px, 3vw, 22px); }
+h5 { font-size: clamp(14px, 2.5vw, 18px); }
+
+/* Improve gap responsiveness */
+.gap-2 {
+  gap: clamp(8px, 2vw, 12px);
+}
+
+.gap-3 {
+  gap: clamp(12px, 3vw, 16px);
+}
+
+.gap-4 {
+  gap: clamp(16px, 4vw, 24px);
+}
+
+/* Responsive padding utilities */
+@media (max-width: 575px) {
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .mt-4 {
+    margin-top: 1rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .px-4 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Prevent overflow on small screens */
+@media (max-width: 575px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    overflow-x: hidden;
+  }
+
+  .container-fluid {
+    padding-left: clamp(0.5rem, 2vw, 1rem);
+    padding-right: clamp(0.5rem, 2vw, 1rem);
+  }
+}
+
+/* Improve card responsiveness */
+.card, [class*="card"] {
+  padding: clamp(12px, 3vw, 20px);
+}
+
+/* Responsive line heights for better readability */
+p, .text-paragraph-size {
+  line-height: clamp(1.4, 1.5vw, 1.8);
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: clamp(1.2, 1.3vw, 1.5);
+}

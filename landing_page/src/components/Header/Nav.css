@@ -8,11 +8,15 @@
     border: 1px solid transparent;
   border-radius: 20px;
   padding: 6px 16px;
-transition: all 0.2s ease-in-out;
+transition: all 0.3s ease-in-out;
 }
 .btn-custom:hover{
 background: rgba(13, 79, 186, 1);
 cursor: pointer;
+transform: translateY(-2px);
+}
+.btn-custom:active{
+  transform: translateY(0);
 }
 .btn-custom-gradient:active,
 .btn-custom-gradient.active{
@@ -21,4 +25,10 @@ cursor: pointer;
     border-radius: 25px;
     background: rgba(59, 116, 191, 1);
     transform: scale(0.99);
+}
+
+@media (max-width: 992px) {
+  .nav-wrapper {
+    display: none;
+  }
 }
