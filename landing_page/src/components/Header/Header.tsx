@@ -17,12 +17,7 @@ const Header = () => {
 
       </div>
       
-    
-      <div className="d-flex d-md-none justify-content-center align-items-center py-1 px-3 mb-2">
-        <h5 className="urbanist-semibold text-white text-center mb-0">
-          "Nós somos a <span className="color-blue-text">Nazatech</span>, inovação e desenvolvimento para todos."
-        </h5>
-      </div>
+  
     </section>
   )
 }

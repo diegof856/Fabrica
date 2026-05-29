@@ -12,7 +12,7 @@ const SectionComponentLgSecondHero = () => {
                     <h2 className="poppins-bold ">conexões reais.</h2>
                 </div>
                 <div>
-                    <p className="poppins-regular  fs-6">Tecnologia voltada para o futuro do trabalho e da economia colaborativa. Sempre acreditando que a tecnologia deve servir para aproximar pessoas e facilitar o dia a dia.</p>
+                    <p className="poppins-regular  fs-5">Tecnologia voltada para o futuro do trabalho e da economia colaborativa. Sempre acreditando que a tecnologia deve servir para aproximar pessoas e facilitar o dia a dia.</p>
                 </div>
 
             </article>
