@@ -6,7 +6,7 @@ const TeamSmallComponent = () => {
     <div>
           <article className="text-white ">
         <h2 className="poppins-semibold m-0 text-center">Nossa Equipe</h2>
-        <p className="text-paragraph-size poppins-regular text-formatting mt-2 p-3">Nossa equipe desenvolve soluções digitais completas com tecnologia de ponta e design inovador, entregando qualidade, confiança e resultados para impulsionar o crescimento do seu negócio.</p>
+        <p className="poppins-regular text-formatting mt-2 small">Nossa equipe desenvolve soluções digitais completas com tecnologia de ponta e design inovador, entregando qualidade, confiança e resultados para impulsionar o crescimento do seu negócio.</p>
       </article>
       <TeamComponent />
     </div>

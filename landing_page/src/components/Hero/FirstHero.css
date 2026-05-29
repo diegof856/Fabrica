@@ -40,17 +40,20 @@
 }
 
 .svg-star-two {
-bottom: 15%;
-left: -35%;
+    bottom: 15%;
+    left: -35%;
 }
-.svg-startwo-variant-two{
+
+.svg-startwo-variant-two {
     bottom: 30%;
-left: 25%;
+    left: 25%;
 }
+
 .svg-startwo-variant-three {
     top: 13%;
 }
-.svg-startwo-variant-three-postion-gear{
+
+.svg-startwo-variant-three-postion-gear {
     bottom: 6%;
 }
 
@@ -58,59 +61,71 @@ left: 25%;
     .gears {
         transform: translate(-12px, -36px);
     }
+
     .small-gear {
-    width: 45%;
-}
-.big-gear {
-    width: 65%;
-}
+        width: 45%;
+    }
+
+    .big-gear {
+        width: 65%;
+    }
 
     .hero-character {
         width: 32%;
         transform: translate(-24px, 32px);
 
     }
-    .svg-gear-sm{
+
+    .svg-gear-sm {
         bottom: 2%;
     }
+
     .svg-gear-blue {
         top: 7%;
         left: 50%;
     }
+
     .svg-gear-lg {
         bottom: 15%;
         left: 8%;
     }
- .svg-star-two {
-     top: 20%;
-   left: 18%;
- }
- .svg-startwo-variant-two {
-    bottom: 1%;
-   left: 84%;
- }
- .svg-startwo-variant-three{
-    bottom: 3%;
-    right: 5%;
- }
- .svg-startwo-variant-three-postion-gear{
-    bottom: 10%;
-    right: 40%;
- }
-    .svg-starthree{
-   bottom: 28%;
-   left: 14%;
-}
+
+    .svg-star-two {
+        top: 20%;
+        left: 18%;
+    }
+
+    .svg-startwo-variant-two {
+        bottom: 1%;
+        left: 84%;
+    }
+
+    .svg-startwo-variant-three {
+        bottom: 3%;
+        right: 5%;
+    }
+
+    .svg-startwo-variant-three-postion-gear {
+        bottom: 10%;
+        right: 40%;
+    }
+
+    .svg-starthree {
+        bottom: 28%;
+        left: 14%;
+    }
 }
 
 
 @media (min-width: 992px) {
-      .small-gear {
-    width: 55%;
-}
-.big-gear {
-    width: 80%;
-}
+    .small-gear {
+        width: 55%;
+    }
+
+    .big-gear {
+        width: 80%;
+    }
+
     .gears {
         transform: translate(88px, -40px);
     }
@@ -120,53 +135,64 @@ left: 25%;
         transform: translate(-48px, 48px);
 
     }
-     .svg-gear-sm{
+
+    .svg-gear-sm {
         bottom: 18%;
         left: -30%;
     }
+
     .svg-gear-blue {
         top: 7%;
         left: 5%;
     }
-    .svg-gear-blue-two-lg{
-          bottom: 7%;
+
+    .svg-gear-blue-two-lg {
+        bottom: 7%;
         left: -35%;
     }
+
     .svg-gear-lg {
         top: 15%;
         left: -40%;
     }
+
     .svg-gear-lg-variant {
-          bottom: 20%;
+        bottom: 20%;
         left: -40%;
     }
- .svg-star-two {
-     top: 20%;
-   left: 18%;
- }
- .svg-startwo-variant-two {
-    top: 1%;
-   right: 70%;
- }
- .svg-startwo-variant-three{
-   top: 25%;
-    right: 5%;
- }
- .svg-startwo-variant-three-postion-gear{
-    bottom: 35%;
-    right: 45%;
- }
- .svg-startwo-variant-three-postion-lg{
-     bottom: 35%;
-    left: 5%;
- }
-  .svg-starthree{
-   top: 20%;
-   left: -28%;
+
+    .svg-star-two {
+        top: 20%;
+        left: 18%;
+    }
+
+    .svg-startwo-variant-two {
+        top: 1%;
+        right: 70%;
+    }
+
+    .svg-startwo-variant-three {
+        top: 25%;
+        right: 5%;
+    }
+
+    .svg-startwo-variant-three-postion-gear {
+        bottom: 35%;
+        right: 45%;
+    }
+
+    .svg-startwo-variant-three-postion-lg {
+        bottom: 35%;
+        left: 5%;
+    }
+
+    .svg-starthree {
+        top: 20%;
+        left: -28%;
+    }
+
+    .svg-starthree-variant-lg {
+        bottom: 32%;
+        left: -15%;
+    }
 }
-.svg-starthree-variant-lg {
-    bottom: 32%;
-    left: -15%;
-}
- }
-   
