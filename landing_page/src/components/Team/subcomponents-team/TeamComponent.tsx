@@ -48,10 +48,10 @@ export const TeamComponent = () => {
   ]
  
   return (
-    <article>
-      <ul className="list-unstyled row-cols-1 row-cols-md-2">
+    <article className="container py-4">
+      <ul className="list-unstyled row g-4">
         {info.map((obj, index) => (
-          <li key={index} className={`mb-3 d-flex gap-2 align-items-center `} style={{ animationDelay: `${index * 0.15}s` }}>
+          <li key={index} className="col-12 col-md-6 d-flex gap-3 align-items-center" style={{ animationDelay: `${index * 0.15}s` }}>
             <div className="avatar-wrapper">
               <div className="avatar-inner">
                 {renderImg(obj.photo, { size: 80, alt: "Foto do integrante da equipe" })}
