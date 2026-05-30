@@ -19,8 +19,8 @@ function App() {
      <Header/>
      <FirstHero/>
     <SecondHero/>
+     <Team/>
     <Service/>
-    <Team/>
     <BicoDigital/>
     <Contact/>
     <Footer/>
