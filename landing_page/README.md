@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# NazaTech - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-Currently, two official plugins are available:
+## 📝 Descrição
+Uma landing page moderna, performática e totalmente responsiva desenvolvida para a **NazaTech**. O projeto apresenta os serviços da empresa, a equipe de especialistas e seu portfólio de soluções digitais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Construído com as tecnologias mais recentes do ecossistema frontend, o projeto foca em uma experiência de usuário fluida e um design profissional.
 
-## React Compiler
+## 🚀 Tecnologias e Ferramentas
+- **React 19**: Construção de interfaces dinâmicas e baseadas em componentes.
+- **TypeScript**: Garantia de tipo e maior segurança no desenvolvimento.
+- **Vite**: Ferramenta de build de próxima geração para um ciclo de desenvolvimento ultra-rápido.
+- **CSS3 (Customizado)**: Estilização modular e responsiva com foco em performance.
+- **React Icons**: Biblioteca de ícones versátil para enriquecer a interface.
+- **React Context API**: Gerenciamento de estado global para fluxos de dados simplificados.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades Principais
+- **Design Responsivo**: Adaptável para dispositivos móveis, tablets e desktops (Small, Medium e Large layouts).
+- **Seção de Equipe**: Apresentação detalhada dos membros com suas respectivas especialidades e níveis de competência.
+- **Catálogo de Serviços**: Exibição clara das soluções oferecidas pela NazaTech.
+- **Portfólio (Bico Digital)**: Vitrine de projetos realizados.
+- **Formulário de Contato**: Canal direto para comunicação com a equipe.
 
-## Expanding the ESLint configuration
+## 🛠️ Estrutura do Projeto
+A organização do código segue as melhores práticas para escalabilidade:
+- `src/components/`: Organizado por seções (Hero, Team, Service, Works, Contact).
+- `src/assets/`: Ativos estáticos, ícones SVG e fotografias da equipe.
+- `src/context/`: Provedores de contexto para estado compartilhado.
+- `src/interfaces/`: Contratos de tipos TypeScript para consistência em todo o app.
+- `src/HelperSvg/`: Componentes dedicados para manipulação de SVGs complexos.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Como Executar o Projeto
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) (versão recomendada: LTS)
+- npm ou yarn
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Instalação e Execução
+1. Clone este repositório:
+   ```bash
+   git clone <url-do-repositorio>
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. Entre no diretório do projeto:
+   ```bash
+   cd landing_page
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+4. Inicie o ambiente de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+5. Para gerar a versão final de produção:
+   ```bash
+   npm run build
+   ```
+
+## 👥 Nossa Equipe
+Conheça os especialistas por trás da NazaTech:
+- **Klismans Nazário**: Technical Writer (TW)
+- **Diego Felipe**: Software Engineer
+- **Wanderllan Santos**: Designer
+- **João Victor**: Quality Assurance
+
+---
+Desenvolvido com ❤️ pela equipe **NazaTech**.
