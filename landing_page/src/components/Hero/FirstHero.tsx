@@ -5,7 +5,7 @@ import SectionComponentMediumPrimaryHero from "./subcomponents-hero/PrimaryHero/
 import "./FirstHero.css";
 const FirstHero = () => {
   return (
-    <section className="d-grid grid-cols-1 grid-cols-lg-2 w-100 overflow-hidden gap-4 align-items-center">
+    <section id="Inicio" className="d-grid grid-cols-1 grid-cols-lg-2 w-100 overflow-hidden gap-4 align-items-center">
       <div className="d-md-none">
         <SectionComponentSmallPrimaryHero />
       </div>

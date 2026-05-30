@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 body{
     font-family: "Poppins", sans-serif;
     background-color: rgba(30, 30, 30, 1);

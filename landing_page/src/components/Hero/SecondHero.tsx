@@ -4,7 +4,7 @@ import LargeSecondHero from "./subcomponents-hero/SecondHero/SectionComponentLgS
 import "./SecondHero.css";
 const SecondHero = () => {
     return (
-        <section className="d-grid row-cols-1 w-100 overflow-hidden text-white py-4 px-4">
+        <section id="Sobre" className="d-grid row-cols-1 w-100 overflow-hidden text-white py-4 px-4">
             <div className="d-md-none">
                 <SmallSecondSection />
             </div>

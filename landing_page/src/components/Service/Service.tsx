@@ -6,7 +6,7 @@ import ServiceComponentSamll from "./subcomponents-service/ServiceComponentSmall
 
 const Service = () => {
   return (
-    <section className="d-grid row-cols-1 w-100 overflow-hidden px-4">
+    <section id="Serviços" className="d-grid row-cols-1 w-100 overflow-hidden px-4">
 
       <div className="d-md-none">
         < ServiceComponentSamll />
