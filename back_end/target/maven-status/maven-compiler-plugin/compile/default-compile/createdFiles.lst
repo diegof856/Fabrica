@@ -1,0 +1,14 @@
+bico_digital\repository\PrestadorServicoRepository.class
+bico_digital\service\impl\PrestadorServicoServiceImpl.class
+bico_digital\exception\GlobalExceptionHandler.class
+bico_digital\model\entity\PrestadorServico$PrestadorServicoBuilder.class
+bico_digital\model\entity\PrestadorServico.class
+bico_digital\model\enums\CategoriaProfissional.class
+bico_digital\exception\ErrorResponseDTO.class
+bico_digital\model\dto\PrestadorServicoUpdateDTO.class
+bico_digital\exception\BusinessException.class
+bico_digital\model\dto\PrestadorServicoRequestDTO.class
+bico_digital\controller\PrestadorServicoController.class
+bico_digital\service\PrestadorServicoService.class
+bico_digital\exception\ResourceNotFoundException.class
+bico_digital\model\dto\PrestadorServicoResponseDTO.class
