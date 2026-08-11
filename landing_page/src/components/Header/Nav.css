@@ -10,6 +10,9 @@
   padding: 6px 16px;
 transition: all 0.3s ease-in-out;
 }
+a{
+  outline: none;
+}
 .btn-custom:hover{
 background: rgba(13, 79, 186, 1);
 cursor: pointer;

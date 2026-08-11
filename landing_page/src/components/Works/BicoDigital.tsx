@@ -1,6 +1,6 @@
-import Carga_descarga from "../../assets/Works/Bico_digital/Carga_descarga.png";
-import Encanador from "../../assets/Works/Bico_digital/Encanador.jpg";
-import TrocaLampada from "../../assets/Works/Bico_digital/Troca-lampada.png";
+import BicoDigitalLarge from "./subcomponents-works/BicoDigitalLarge"
+import BicoDigitalSmall from "./subcomponents-works/BicoDigitalSmall"
+
 const BicoDigital = () => {
   return (
     <section id="Portifolio" className="d-grid row-cols-1 w-100 overflow-hidden px-4 mt-4">

@@ -55,9 +55,9 @@ color: rgba(59, 116, 191, 1);
   font-style: normal;
 }
 .text-formatting{
-  letter-spacing: 0.0em;
-  line-height: 100%;
-  text-align: justify;
+  
+  line-height: 1.3;
+
 }
 .text-paragraph-size{
   font-size: var(--text-paragraph-size);

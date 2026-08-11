@@ -2,9 +2,26 @@
     background-color:  rgba(13, 79, 186, 1);
     padding: 8px 16px;
     border-radius: 10px;
+<<<<<<< HEAD
     flex: 0 0 auto;
     min-width: max-content;
     transition: all 0.2s ease-in-out;
+=======
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+.btn:hover {
+    background-color: rgba(10, 61, 145, 1);
+    box-shadow: 0 4px 12px rgba(13, 79, 186, 0.3); 
+}
+
+
+.btn:active {
+    background-color: rgba(7, 45, 107, 1); 
+    transform: scale(0.98); 
+    box-shadow: 0 2px 6px rgba(13, 79, 186, 0.2);
+>>>>>>> main
 }
 
 .btn:hover {
@@ -26,6 +43,7 @@
     font-weight: normal;
     opacity: 0.7;
 }
+<<<<<<< HEAD
 
 .contact-form-wrapper {
   width: 100%;
@@ -44,3 +62,5 @@
     width: 100%;
   }
 }
+=======
+>>>>>>> main
